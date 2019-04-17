@@ -1,11 +1,11 @@
 
-#Generation Unit Test for Linear Search Function
+# Generation Unit Test for Reverse String Function
 
-##Tran Vu Duc
-##16020213
-###Soure code: https://github.com/TheAlgorithms/Java/blob/master/Searches/LinearSearch.java
+## Tran Vu Duc
+## 16020213
+### Soure code: https://github.com/TheAlgorithms/Java/blob/master/Others/ReverseString.java
 
-1. String reverse(String str){
+> String reverse(String str){
 2. 		if(str.isEmpty() || str == null) return str;           
 3.  	char arr = str.toCharArray();
 4.  	for(int i = 0, j = str.length() - 1; i < j; i++, j--){
@@ -15,6 +15,8 @@
 8.  	}
 9.  	return new String(arr);
 10. }
+
+![alt](https://imgur.com/a/NmCqK5t)
 
 ## __2.List of Road__
 ### __Road 1__: 1-2 
