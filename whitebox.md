@@ -5,7 +5,7 @@
 ## 16020213
 ### Soure code: https://github.com/TheAlgorithms/Java/blob/master/Others/ReverseString.java
 
-> String reverse(String str){
+1. String reverse(String str){
 2. 		if(str.isEmpty() || str == null) return str;           
 3.  	char arr = str.toCharArray();
 4.  	for(int i = 0, j = str.length() - 1; i < j; i++, j--){
@@ -16,7 +16,7 @@
 9.  	return new String(arr);
 10. }
 
-![alt](https://imgur.com/a/NmCqK5t)
+![alt](https://imgur.com/wq0yP9N)
 
 ## __2.List of Road__
 ### __Road 1__: 1-2 
